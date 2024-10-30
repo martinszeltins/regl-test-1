@@ -8,6 +8,12 @@ dependencies:
   '@nuxtjs/tailwindcss':
     specifier: ^6.12.2
     version: 6.12.2
+  '@regle/core':
+    specifier: ^0.0.13
+    version: 0.0.13(vue@3.5.12)
+  '@regle/validators':
+    specifier: ^0.0.13
+    version: 0.0.13(vue@3.5.12)
   '@vueuse/core':
     specifier: ^11.1.0
     version: 11.1.0(vue@3.5.12)
@@ -1551,6 +1557,22 @@ packages:
 
   /@polka/url@1.0.0-next.28:
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
+    dev: false
+
+  /@regle/core@0.0.13(vue@3.5.12):
+    resolution: {integrity: sha512-mNpczL1KyHnbtvYzDfT3IEp1Ab553FRWCyYucQVHi8C+CY1gaq+QFuTOEMqjsvGoVhUEC8Wn3MWtbOcOFZxn+Q==}
+    peerDependencies:
+      vue: ^3.1.0
+    dependencies:
+      vue: 3.5.12
+    dev: false
+
+  /@regle/validators@0.0.13(vue@3.5.12):
+    resolution: {integrity: sha512-9pwZOuYOulfrw4foo6x8rWbNOSmZ6TwbWMzMg6BtiKKJuXXUiecH2IiLImKXGzXKz1rFd70KEt7HjhVDkN2PJQ==}
+    dependencies:
+      '@regle/core': 0.0.13(vue@3.5.12)
+    transitivePeerDependencies:
+      - vue
     dev: false
 
   /@rollup/plugin-alias@5.1.1(rollup@4.24.3):
